@@ -107,3 +107,395 @@ ul,ol {
     opacity: 1;
     visibility: visible; 
 } 
+
+.work {
+    background: #F4F6FC;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.work h2 {
+    width: 405px;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+}
+.work p{
+     width: 405px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    color: #282938;
+    opacity: 70%;
+    padding: 16px 0px;
+}
+.work a {
+    width: 244px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 32px;
+    color: #2405F2;
+    position: relative;
+}
+.work .work-btn i {
+    position: absolute;
+    top: 4px;
+    right: -21px;
+    opacity: 0;
+    transition: .4s;
+    visibility: hidden;
+}
+.work .work-btn:hover i {
+    right: -45px;
+    opacity: 1;
+    visibility: visible;
+}
+.pointer{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+}
+.right{
+    width: 48%;
+    
+}
+.work .right h3{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 48px;
+    color: #282938;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+.work .right p{
+    width: 303px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    color: #282938;
+    opacity: 70%;
+    padding: 0px !important;
+}
+
+.project{
+    padding: 128px 0px;
+}
+.project .upper-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 64px;    
+      
+}
+.upper-part h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;  
+    color: #282938;
+}
+.project .project-btn{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    position: relative;
+}
+.project .project-btn i{
+    position: absolute;
+    top: 4px;
+    right: -21px;
+    opacity: 0;
+    transition: .4s;
+    visibility: hidden;
+}
+.project .project-btn:hover i{
+    right: -45px;
+    opacity: 1;
+    visibility: visible;
+}
+.project img{
+    width: 100%;
+}
+/* ======first overlay======== */
+.project .parent-ani{
+    position: relative;
+    
+    
+}
+.project .overlay h4{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.project .overlay p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.80);
+    padding-top: 16px;
+    padding-bottom: 40px;
+    line-height: 28px;
+    
+}
+.project .overlay a{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FCD980;
+    position: relative; 
+}
+ .project .overlay a i{
+    position: absolute;
+    top: 4px;
+    right: -25px;
+    opacity: 0;
+    transition: .4s;
+    visibility: hidden;
+} 
+ .project .overlay a:hover i{
+    opacity: 1;
+    right: -58px;
+    visibility: visible;
+} 
+.project .overlay{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 50%;
+    background-image: linear-gradient(rgba(28, 30, 83, 0.42), #1C1E53);
+    height: 100%;
+    width: 50%;
+    transition: 0.5s;
+    padding: 312px 35px 76px 48px ;
+}
+.project .parent-ani:hover .overlay{
+    left: 0%;
+    opacity: 1;
+} 
+
+/* ======second overlay======== */
+.project .parent2-ani{
+    position: relative;
+    overflow: hidden;   
+}
+.project .overlay2 h4{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    width: 292px;
+    line-height: 36px;
+}
+
+.project .overlay2 a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FCD980;
+    position: relative; 
+}
+ .project .overlay2 a i{
+    position: absolute;
+    top: 4px;
+    right: -25px;
+    opacity: 0;
+    transition: .4s;
+    visibility: hidden;
+} 
+ .project .overlay2 a:hover i{
+    opacity: 1;
+    right: -58px;
+    visibility: visible;
+} 
+.project .overlay2{
+    position: absolute;
+    
+    top: -100%;
+    left: 0;
+    background-image: linear-gradient(rgba(28, 30, 83, 0.42), #1C1E53);
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    padding: 129px 36px 45px 56px ; 
+    
+}
+.project .parent2-ani:hover .overlay2{
+    top: 0%;
+}
+  /*============third overlay================ */
+.project .parent3-ani{
+    position: relative; 
+    margin-top: 22px;
+    overflow: hidden;  
+}
+.project .overlay3 h4{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    width: 292px;
+    line-height: 36px;
+}
+
+.project .overlay3 a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FCD980;
+    position: relative; 
+}
+ .project .overlay3 a i{
+    position: absolute;
+    top: 4px;
+    right: -25px;
+    opacity: 0;
+    transition: .4s;
+    visibility: hidden;
+} 
+ .project .overlay3 a:hover i{
+    opacity: 1;
+    right: -58px;
+    visibility: visible;
+} 
+.project .overlay3{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    background-image: linear-gradient(rgba(28, 30, 83, 0.42), #1C1E53);
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    padding: 129px 36px 45px 56px ;    
+}
+.project .parent3-ani:hover .overlay3{
+    bottom: 0%;
+}
+/* =================
+    project end
+==================== */
+/* =================
+   features  start
+==================== */
+.features{
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background: #F4F6FC;
+}
+.features .heading{
+    text-align: center;
+   
+}
+.features .heading h3{
+    color: #282938;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    width: 630px;
+    line-height: 64px;
+    margin-left: 26%;
+    padding-top: 12px;
+}
+.features .heading h6{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;   
+    padding-top: 12px;
+}
+.features .box{
+    row-gap: 32px;
+    padding-top: 47px;
+}
+ .features .title{
+    height: 316px;
+    width: 405px;
+    background: white;
+    padding: 58px 32px 48px 48px;
+}
+.features .icon h3{
+    color: #282938;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 22px;
+    padding-bottom: 12px;
+}
+.features .icon p{
+    color: #282938;
+    opacity: 70%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    width: 324px;
+}
+/* =================
+    features end
+==================== */
+/* =================
+   comment start
+==================== */
+.comment{
+    background: #F9FAFD;   
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.comment .left h4{
+    color: #282938;
+    font-size: 38px;
+    font-weight: 600;
+    width: 327px;
+    font-family: "Poppins", sans-serif;
+}
+.comment .left p{
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 70%;
+    width: 327px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 16px;
+}
+.comment .right h5{
+    color: #282938;
+    font-size: 32px;
+    font-weight: 500;
+    width: 843px;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 48px;
+}
+.comment .client{
+    display: flex;
+}
+.comment logo{
+    padding-right: 14px;
+}
+.comment .name h6{
+    color: #282938;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 32px;
+    
+    
+}
+.comment .name p{
+    color: #282938;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;   
+}
+.comment img{
+    height: 52px;
+    width: 52px;
+}
+/* =================
+    comment end
+==================== */
